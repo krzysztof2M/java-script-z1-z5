@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html lang="pl-PL"> 
+<HTML>
+ <head>
+ <title> Marszalec 3F</title>
+ <script language="JavaScript">
+
+ function WinOpen_z3() 
+ {
+window.open("z3_mars.html","okienko_z3","toolbar=no,directories=no,menubar=no,height=380,width=160,top=200,left=200");
+ }
+
+function WinOpen_z4() 
+ {
+window.open("z4_mars.html","okienko_z4","toolbar=no,directories=no,menubar=no,height=1000,width=750,top=200,left=400");
+ }
+
+ function WinOpen_z5() 
+ {
+window.open("z5_mars.html","okienko_z5","height=600,width=1200,top=200,left=400");
+ }
+
+function okno_zamknij() 
+ {
+ window.close()
+ }
+
+ </script>
+ </head>
+<body>
+    
+<script>
+    document.write("<div style='text-align: center; font-size: 1cm; color: red;'><b>Szkielet zaliczeniowy JavaScript Krzysztof Marszalec 3F</b><br></div>");
+</script>
+<br>
+    <form>
+ <input type="button_z3" name="zadanie3" value="zadanie3-Marszalc" onclick="WinOpen_z3(' ')">
+ <input type="button_z4" name="zadanie4" value="zadanie4-Marszalec" onclick="WinOpen_z4(' ')">
+ <input type="button_z5" name="zadanie5" value="zadanie5-Marszalec" onclick="WinOpen_z5(' ')">
+ <input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+ </form>
+
+
+</body>
+</html>
